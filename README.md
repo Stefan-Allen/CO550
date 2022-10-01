@@ -4,6 +4,6 @@
 | Work Time | Time spent | 
 **Github Created**: | 1hr 30m  |
 
-| Members | Stefan/AK/Benjamin | Time Spent |
+| Work Done | Stefan/AK/Benjamin | Time Spent |
 | ---- | ---- | ---- |
 **Github Created**: | Stefan  | 1hr 30m |
