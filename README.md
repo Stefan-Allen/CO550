@@ -1,7 +1,7 @@
 # CO550
 
 | Members | Stefan/AK/Benjamin |
-| ---- | ---- |
-**Time worked**: | Stefan - 1hr 30m  |
+| Work Time | Time spent | Name
+**Github Created**: | 1hr 30m  | Stefan 
 **Time worked**: | AK - 0m |
-**Time worked** | Ben - 0m |
+**Time worked** | Ben - 0m | 
