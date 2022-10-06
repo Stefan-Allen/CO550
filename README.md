@@ -4,4 +4,4 @@
 | ---- | ---- | ---- |
 **Github Created** | Stefan  | 1hr 30m |
 **Database Logging/Design** | Stefan/Ben  | 2hr |
-**Design features** | AK  | 1 Hour |
+**Design features** | AK  | 20m |
