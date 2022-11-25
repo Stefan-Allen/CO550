@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div style="background-color:lightgray">
+    <header class="text-center">
+    <h1 style="font-weight:300">Welcome To Razor Pages</h1>
+    <h2>by Stefan Allen</h2>
+    </header>
+    <br/><br/>
+    <form method="post" class="mx-auto" style="width:200px">
+        <p class="mb-3">
+            <label for="amount">Converted Amount:</label>
+            <input asp-for="@Model.x" class="form-control" type="number" class="form-control" value="100">
+        </p>
+
+        <p class="mb-3">
+            <button type="submit" style="border:solid" class="btn btn primary">Calculate</button>
+        </p>
+        <p class="mb-3">
+            @ViewData["Message"]
+        </p>
+    </form>
+</div>
+
+
