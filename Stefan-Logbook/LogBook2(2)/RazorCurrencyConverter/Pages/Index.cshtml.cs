@@ -10,14 +10,13 @@ namespace RazorCurrencyConverter.Pages
         [BindProperty]
 
         public string? x { get; set; }
-        public const double y = 1.21;
         double result;
 
         public void OnPost()
         {
             if (!String.IsNullOrWhiteSpace(x))
             {
-                result = Convert.ToDouble(x) * y;
+                result = Convert.ToDouble(x) * 1.21;
                 ViewData["Message"] = $"£{x} Is ${result}";
             }
 
