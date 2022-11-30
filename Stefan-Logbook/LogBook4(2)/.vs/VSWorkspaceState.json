@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ContosoUniversity",
+    "\\ContosoUniversity\\ContosoUniversity",
+    "\\ContosoUniversity\\ContosoUniversity\\Views",
+    "\\ContosoUniversity\\ContosoUniversity\\Views\\Students"
+  ],
+  "SelectedNode": "\\ContosoUniversity\\ContosoUniversity\\Views\\Students\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
