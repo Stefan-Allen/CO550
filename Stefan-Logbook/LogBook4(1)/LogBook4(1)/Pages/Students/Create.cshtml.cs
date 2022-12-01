@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 
-namespace ContosoUniversity.Pages.Students
+namespace Logbook_3__3_.Pages.Students
 {
     public class CreateModel : PageModel
     {
@@ -21,19 +21,14 @@ namespace ContosoUniversity.Pages.Students
 
         public IActionResult OnGet()
         {
-            // For easy testing.
-            Student = new Student
-            {
-                FirstMidName = "Joe",
-                EnrollmentDate = DateTime.Now,
-                LastName = "Smith"
-            };
             return Page();
         }
 
         [BindProperty]
         public Student Student { get; set; }
 
+
+        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
             var emptyStudent = new Student();
